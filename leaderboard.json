@@ -1,0 +1,16 @@
+{
+  "note": "SAMPLE DATA - replace the scores below with real top scores. This file is what the leaderboard section renders. Later a scheduled job can overwrite it.",
+  "updated": "2026-07-13",
+  "scores": [
+    { "rank": 1, "name": "FrostByte", "score": 812 },
+    { "rank": 2, "name": "AvalancheAl", "score": 774 },
+    { "rank": 3, "name": "PowderHound", "score": 690 },
+    { "rank": 4, "name": "SubZero", "score": 655 },
+    { "rank": 5, "name": "IcePickIggy", "score": 601 },
+    { "rank": 6, "name": "BlizzardBex", "score": 578 },
+    { "rank": 7, "name": "SnowdriftSam", "score": 540 },
+    { "rank": 8, "name": "ChillWill", "score": 512 },
+    { "rank": 9, "name": "FlurryFran", "score": 489 },
+    { "rank": 10, "name": "SlushPuppy", "score": 455 }
+  ]
+}
