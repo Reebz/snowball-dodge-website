@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Snowball Dodge</title>
+  <meta name="description" content="The Snowball Dodge privacy policy. We don't collect your data. No accounts, no analytics, no ads, no tracking.">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/app-icon.png">
+  <link rel="apple-touch-icon" href="images/app-icon.png">
+  <meta name="robots" content="index, follow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *,
+    *::before,
+    *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --bg: #FAFAF9;
+      --bg-alt: #F5F5F4;
+      --text: #1C1917;
+      --text-muted: #57534E;
+      --accent: #0B6FB8;
+      --accent-hover: #095C99;
+      --border: #E7E5E4;
+      --card-bg: #FFFFFF;
+      --shadow: 0 1px 3px rgba(28, 25, 23, 0.08), 0 1px 2px rgba(28, 25, 23, 0.04);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #1C1917;
+        --bg-alt: #292524;
+        --text: #FAFAF9;
+        --text-muted: #A8A29E;
+        --accent: #5FB2EC;
+        --accent-hover: #3E97D6;
+        --border: #44403C;
+        --card-bg: #292524;
+        --shadow: 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px 2px rgba(0, 0, 0, 0.2);
+      }
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+
+    body {
+      font-family: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+      font-weight: 500;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    .pixel-font {
+      font-family: 'Silkscreen', system-ui, monospace;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: var(--accent-hover);
+      text-decoration: underline;
+    }
+
+    a:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+      border-radius: 3px;
+    }
+
+    /* ---- Top bar ---- */
+    .topbar {
+      padding: 28px 0 0;
+    }
+
+    .home-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+
+    .home-link img {
+      width: 34px;
+      height: 34px;
+      border-radius: 9px;
+      box-shadow: var(--shadow);
+    }
+
+    /* ---- Legal prose ---- */
+    .legal {
+      padding: 40px 0 64px;
+    }
+
+    .legal h1 {
+      font-family: 'Silkscreen', system-ui, sans-serif;
+      font-size: 1.9rem;
+      font-weight: 700;
+      line-height: 1.3;
+      margin-bottom: 10px;
+    }
+
+    .legal .updated {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      font-weight: 500;
+      margin-bottom: 28px;
+    }
+
+    .legal .lead {
+      font-size: 1.1rem;
+      color: var(--text);
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--accent);
+      border-radius: 12px;
+      padding: 18px 20px;
+      margin-bottom: 36px;
+      box-shadow: var(--shadow);
+    }
+
+    .legal h2 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      margin: 34px 0 10px;
+    }
+
+    .legal p {
+      color: var(--text-muted);
+      margin-bottom: 14px;
+    }
+
+    .legal ul {
+      color: var(--text-muted);
+      margin: 0 0 14px 22px;
+    }
+
+    .legal li {
+      margin-bottom: 8px;
+    }
+
+    .legal strong {
+      color: var(--text);
+      font-weight: 600;
+    }
+
+    /* ---- Footer ---- */
+    .footer {
+      padding: 40px 0;
+      border-top: 1px solid var(--border);
+      text-align: center;
+    }
+
+    .footer-nav {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 16px;
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+
+    .footer-tagline {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+
+    .footer-copy {
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--text-muted);
+    }
+
+    @media (max-width: 640px) {
+      .container { padding: 0 20px; }
+      .legal h1 { font-size: 1.4rem; }
+      .legal .lead { font-size: 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top bar -->
+  <header class="topbar">
+    <div class="container">
+      <a href="/" class="home-link">
+        <img src="images/app-icon.png" alt="Snowball Dodge app icon" width="34" height="34">
+        <span>Snowball Dodge</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Policy -->
+  <main class="legal">
+    <div class="container">
+      <h1 class="pixel-font">Privacy Policy</h1>
+      <p class="updated">Last updated: July 13, 2026</p>
+
+      <p class="lead">Snowball Dodge does not collect your data. There are no accounts, no analytics, no ads, and no tracking. Nothing you do in the game is sent to us.</p>
+
+      <p>This policy explains how Snowball Dodge (the &ldquo;app&rdquo;) and its website handle your information. Snowball Dodge is made by Capita Technology (&ldquo;we,&rdquo; &ldquo;us&rdquo;). It is a simple, free arcade game.</p>
+
+      <h2>What we collect</h2>
+      <p><strong>Nothing.</strong> We do not collect, store, or transmit any personal information about you. We have no servers that receive your data, no user accounts, and no way to identify you.</p>
+      <p>The app saves a few settings on your device &mdash; things like your best score, your chosen character, and whether sound is on. This information stays on your device, is only used to run the game, and is never sent to us or anyone else. Deleting the app removes it.</p>
+
+      <h2>Game Center leaderboard</h2>
+      <p>If you choose to use the leaderboard, that feature is provided by Apple&rsquo;s <strong>Game Center</strong>. When you submit a score, the app sends it to Game Center, which is run by Apple. Your Game Center nickname and account are managed by Apple, not by us. We do not receive your Apple ID, your real name, or any account details.</p>
+      <p>Your use of Game Center is covered by <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple&rsquo;s Privacy Policy</a>. You can turn Game Center off in your device&rsquo;s Settings at any time.</p>
+
+      <h2>Purchases</h2>
+      <p>Snowball Dodge offers optional <strong>cosmetic characters</strong> you can buy. These purchases are handled entirely by Apple through the App Store&rsquo;s in-app purchase system. Apple processes the payment. <strong>We never see or store your payment card, billing address, or Apple ID.</strong> Apple handles that information under its own privacy policy.</p>
+
+      <h2>No tracking, analytics, or ads</h2>
+      <p>We do not use any analytics tools, advertising networks, or third-party tracking of any kind. The app includes no advertising SDKs and does not track you across other apps or websites.</p>
+
+      <h2>Children&rsquo;s privacy</h2>
+      <p>Snowball Dodge is family-friendly and safe for players of any age. Because we collect no personal information from anyone, we collect none from children either. We do not knowingly gather data from children, and there is nothing to gather.</p>
+
+      <h2>This website</h2>
+      <p>This website (snowballdodge.com) is a simple, static marketing page. We do not use cookies or analytics on it. It is hosted by Vercel, which, like any web host, may keep standard server logs (such as IP addresses and request times) for security and reliability. We do not use those logs to identify you, and we do not have access to them for marketing purposes. See <a href="https://vercel.com/legal/privacy-policy" target="_blank" rel="noopener">Vercel&rsquo;s Privacy Policy</a> for details.</p>
+
+      <h2>Third-party services</h2>
+      <p>The only third party involved in the app is <strong>Apple</strong>, which provides the App Store, in-app purchases, and Game Center. Apple&rsquo;s handling of your information is described in <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple&rsquo;s Privacy Policy</a>.</p>
+
+      <h2>Changes to this policy</h2>
+      <p>If this policy changes, we will update this page and change the &ldquo;Last updated&rdquo; date above. Because the app collects no data, any changes are likely to be small clarifications.</p>
+
+      <h2>Contact</h2>
+      <p>Questions about this policy? Email us at <a href="mailto:contact@snowballdodge.com">contact@snowballdodge.com</a>.</p>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="/">Home</a>
+        <a href="/privacy">Privacy</a>
+      </nav>
+      <p class="footer-tagline">No ads. No pay-to-win. No timers. Just dodge.</p>
+      <p class="footer-copy">Made by Capita Technology.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
